@@ -9,9 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 public class CheckstyleApplication {
 
-    @RequestMapping(
-        "/"
-    )
+    @RequestMapping("/")
     String home() {
         return "Google Java CodeStyle";
     }
