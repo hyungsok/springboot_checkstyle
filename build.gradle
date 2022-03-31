@@ -22,9 +22,6 @@ tasks.named('test') {
     useJUnitPlatform()
 }
 
-def configDir = "${project.rootDir}/config" as Object
 checkstyle {
     toolVersion = '10.1'
-    configFile file("$configDir/checkstyle/checkstyle.xml")
-    configProperties.checkstyleSuppressionsPath = file("$configDir/checkstyle/suppressions.xml").absolutePath
 }
