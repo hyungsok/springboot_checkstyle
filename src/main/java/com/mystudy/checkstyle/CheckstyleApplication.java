@@ -11,6 +11,7 @@ public class CheckstyleApplication {
 
     @RequestMapping("/")
     String home() {
+        new CheckStyle().main();
         return "Google Java CodeStyle";
     }
 
