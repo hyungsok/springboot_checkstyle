@@ -36,7 +36,7 @@
     <property name="file" value="${config_loc}/suppressions.xml"/>
   </module>
 
-  <!-- Checks for whitespace                               -->
+  <!-- Checks for whitespace -->
   <!-- See http://checkstyle.org/config_whitespace.html -->
   <module name="FileTabCharacter">
     <property name="eachLine" value="true"/>
