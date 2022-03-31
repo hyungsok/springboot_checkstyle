@@ -1,6 +1,6 @@
 package com.mystudy.checkstyle;
 
-class CheckStyle {
+class CheckStyle01 {
 	public
 		void main() {
 }

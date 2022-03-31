@@ -5,7 +5,7 @@
 - git 명령어 실행
 <pre>
     <code>
-        git config --add checkstyle.jar ./config/checkstyle/checkstyle-10.1-all.jar
-        git config --add checkstyle.checkfile ./config/checkstyle/intellij-java-google-style.xml
+        git config --add checkstyle.jar ./config/githook/checkstyle-10.1-all.jar
+        git config --add checkstyle.checkfile ./config/checkstyle/checkstyle.xml
     </code>
 </pre>
